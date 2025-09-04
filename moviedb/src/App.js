@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Search from './components/search';
-import Result from './components/Result';
 import Results from './components/Results';
 import axios from 'axios';
 import Popup from './components/Popup';
@@ -11,6 +10,7 @@ function App() {
 
   const search = (e) => {
     if (e.key === "Enter") {
+      if (state.s === "") return;
       axios(apiurl + "&s=" + state.s).then(({ data }) => {
         let results = data.Search;
 
