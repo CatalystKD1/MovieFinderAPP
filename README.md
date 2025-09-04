@@ -4,6 +4,8 @@ A sleek and modern **Movie Finder** application built with **React**, **JavaScri
 
 This project is all about combining frontend development skills with real-world API integration to deliver a fast, responsive, and visually engaging experience.  
 
+<img width="1237" height="826" alt="image" src="https://github.com/user-attachments/assets/fa9ed967-1b39-499f-b90f-1dc37b707539" />
+
 ---
 
 ## Features
